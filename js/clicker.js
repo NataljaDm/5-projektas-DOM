@@ -1,3 +1,9 @@
+import { renderHeader } from "./header.js";
+
+renderHeader(false);
+
+console.clear();
+
 const formDOM = document.querySelector('form');
 const minus3DOM = formDOM.querySelector('button');
 const minus1DOM = formDOM.querySelector('button:nth-child(2)');
